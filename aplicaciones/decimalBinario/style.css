@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Getho-Light-It";
+    src: url("Getho-Light-It.ttf");
+}
+
+body {
+    font-family: 'Getho-Light-It', "GLI";
+    background-color: #36393F;
+    text-align: center;
+    color: rgb(236, 226, 226);
+}
+body a {
+    color:cornflowerblue;
+}
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    size: 5px;
+    align-self: center;
+    border-radius: 28px;
+}
+button:hover {
+    background-color: #9b9b9b;
+    box-shadow: #36393F;
+}
+button:active {
+    background-color: transparent;
+}
